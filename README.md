@@ -1,6 +1,5 @@
 # California Housing Price Prediction
 
-![California Housing](california_housing.jpg)
 
 This project aims to predict housing prices in California based on various features using machine learning techniques. It includes data preprocessing, feature engineering, model training, and evaluation.
 
