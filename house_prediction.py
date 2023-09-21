@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+#this is a file
 #%%
 df = pd.read_csv('/Users/swarnim/Desktop/housing.csv') #loading the file into our notebook
 # %%
@@ -62,4 +63,6 @@ from sklearn.linear_model import LinearRegression
 x_train, y_train = train_data.drop('median_house_value', axis=1), train_data['median_house_value']
 reg = LinearRegression()
 reg.fit(x_train,y_train)
+# %%
+train_data
 # %%
